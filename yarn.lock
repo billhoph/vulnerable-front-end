@@ -366,9 +366,12 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==
 
-epimetheus@^1.0.46:
-  version "1.0.46"
-  resolved "https://registry.yarnpkg.com/epimetheus/-/epimetheus-1.0.46.tgz#fad0664062fac5f4cd31abb2de9a67853a984662"
+epimetheus@^1.0.92:
+  version "1.0.92"
+  resolved "https://registry.yarnpkg.com/epimetheus/-/epimetheus-1.0.92.tgz#c4f354341f8ab692f62c3392108b356e1282d191"
+  integrity sha512-rZqoUT63Xu3z5wPpTFPWkrIileJ9deOx/k/0ZPTiMSKBtPmJ9RzNrlo/M2UWvky7h8clrgc/s2uciq2mfruKrA==
+  dependencies:
+    prom-client "^10.0.0"
 
 es6-promise@3.2.1:
   version "3.2.1"
@@ -1074,6 +1077,13 @@ prelude-ls@~1.1.2:
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
+
+prom-client@^10.0.0:
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-10.2.3.tgz#a51bf21c239c954a6c5be4b1361fdd380218bb41"
+  integrity sha512-Xboq5+TdUwuQtSSDRZRNnb5NprINlgQN999VqUjZxnLKydUNLeIPx6Eiahg6oJua3XBg2TGnh5Cth1s4I6+r7g==
+  dependencies:
+    tdigest "^0.1.1"
 
 prom-client@^6.1.0:
   version "6.3.0"
